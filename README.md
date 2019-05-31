@@ -1,5 +1,9 @@
 # DataforClimate
 
+## Abstract: 
+
+Ben Franklin said "There are **three kinds of people**: those that are _immovable_, those that are _movable_, and _those who move_." Activists on Brightest are **those who move**, how do we help them find the people who are **movable**? This piece will use opinion, impact, and political engagement data to inform strategy recommendations for climate activists, identifying core consituencies and demographic trends in support and opposition to understand what races and political offices could be influenced most by activism on climate change and climate justice. 
+
 ## Data Sources:
 
 -   [Yale Climate Opinion Maps 2018](https://climatecommunication.yale.edu/visualizations-data/ycom-us-2018/?est=happening&type=value&geo=county), Yale Program on Climate Change Communication
@@ -8,7 +12,6 @@
 
 ## Questions: 
 
--   Ben Franklin, "There are **three kinds of people**: those that are _immovable_, those that are _movable_, and _those who move_." People on Brightest are those who move, how do we help them find the people who are **movable**? 
 -   Where might we be most likely to succeed in changing laws and policies to prevent further climate destruction?
     -   Where do people believe in climate change?
         -    Where do people not believe in climate change? 
@@ -20,3 +23,5 @@
         -   Are the people who believe/worry the people who will be affected? 
     -   What level of support will it take to win?
         -   What does "winning" look like?
+    -   Where are the most significant environmental justice concerns? 
+        -   How does this compare to the opinion data?
