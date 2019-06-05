@@ -1,4 +1,5 @@
 # DataforClimate
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![impacts](https://github.com/charlottemcclintock/DataforClimate/blob/master/plots/impacts.png)
 
+![worried](https://github.com/charlottemcclintock/DataforClimate/blob/master/plots/worried.png)
