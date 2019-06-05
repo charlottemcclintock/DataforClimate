@@ -27,7 +27,7 @@ cent_lat <- median(arb$lat)
 # BELIEVE CLIMATE CHANGE IS HAPPENING
 p <- map %>%
   group_by(group) %>%
-  plot_mapbox(x = ~long, y = ~lat, color = ~happening, 
+  plot_mapbox(x = ~long, y = ~lat, color = ~as.factor(round(happening)), 
               colors = c('yellow','blue'),
               text = ~subregion, hoverinfo = 'text', 
               showlegend = FALSE) %>%
@@ -36,7 +36,6 @@ p <- map %>%
   ) %>%
   add_polygons(fillcolor = 'transparent',
                line = list(color = 'black', width = 0.5),
-               showlegend = FALSE, hoverinfo = 'none'
   ) %>%
   layout(
     xaxis = list(title = "", showgrid = FALSE, showticklabels = FALSE),
@@ -53,6 +52,29 @@ p
 p <- map %>%
   group_by(group) %>%
   plot_mapbox(x = ~long, y = ~lat, color = ~as.factor(round(worried)), 
+              colors = c('yellow','blue'),
+              text = ~subregion, hoverinfo = 'text', 
+              showlegend = FALSE) %>%
+  add_polygons(
+    line = list(width = 0.4)
+  ) %>%
+  add_polygons(fillcolor = 'transparent',
+               line = list(color = 'black', width = 0.5),
+  ) %>%
+  layout(
+    xaxis = list(title = "", showgrid = FALSE, showticklabels = FALSE),
+    yaxis = list(title = "", showgrid = FALSE, showticklabels = FALSE),
+    mapbox = list(
+      style = 'light',
+      zoom = 3,
+      center = list(lat = ~cent_lat, lon = ~cent_long)),
+    margin = list(l = 0, r = 0, b = 0, t = 0, pad = 0)
+  )
+p
+
+p <- map %>%
+  group_by(group) %>%
+  plot_mapbox(x = ~long, y = ~lat, color = ~as.factor(round(personal)), 
               colors = c('yellow','blue'),
               text = ~subregion, hoverinfo = 'text', 
               showlegend = FALSE) %>%
