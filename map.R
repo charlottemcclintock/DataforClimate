@@ -7,7 +7,7 @@
 Sys.setenv('MAPBOX_TOKEN' = 'pk.eyJ1IjoiY2hhcmxvdHRlbWNjbGludG9jayIsImEiOiJjancyNmpja3EwdGdrNDlwZzk2NThwNWFyIn0.VrHeDXCIvkgAIDJNtgOOQw')
 
 # set working directory
-setwd("~/Projects/Active/QuadrantQuestion/yale-climate")
+setwd("data")
 
 # load libraries
 library(plotly)
@@ -61,7 +61,6 @@ p <- map %>%
   ) %>%
   add_polygons(fillcolor = 'transparent',
                line = list(color = 'black', width = 0.5),
-               showlegend = FALSE, hoverinfo = 'none'
   ) %>%
   layout(
     xaxis = list(title = "", showgrid = FALSE, showticklabels = FALSE),
