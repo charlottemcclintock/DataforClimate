@@ -51,3 +51,11 @@ Where are the most significant environmental justice concerns? How does this com
 
 ## Winning on Climate
 What level of support will it take to win? What does "winning" look like?
+
+Green New Deal
+Climate Community Protection Act
+
+
+
+
+

@@ -24,6 +24,8 @@ arb <- subset(map, region=="Kansas")
 cent_long <- median(arb$long)
 cent_lat <- median(arb$lat)
 
+map$happening <- cut(map, breaks = c(50,60,70,80), labels=c("40-50", "51-60"))
+
 # BELIEVE CLIMATE CHANGE IS HAPPENING
 p <- map %>%
   group_by(group) %>%

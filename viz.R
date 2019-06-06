@@ -21,5 +21,5 @@ load("climate-opinion.RData")
 ggplot(damages, aes(totaldamagescountyincome)) + geom_density()
 ggplot(damages, aes(happening)) + geom_density()
 ggplot(damages, aes(worried)) + geom_density()
-ggplot(damages, aes(diff)) + geom_density()
+ggplot(damages, aes(personal)) + geom_density()
 
