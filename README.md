@@ -19,4 +19,3 @@
 ![compare](https://github.com/charlottemcclintock/DataforClimate/blob/master/stories/impactvsaction/graphics/quad.png)
 
 
-![brightest-logo](https://github.com/charlottemcclintock/DataforClimate/blob/master/stories/impactvsaction/graphics/brightest_logo.png)
