@@ -4,10 +4,10 @@
 
 # Stories
 ## Story: [The Missing Votes on Climate](https://www.brightest.io/climate-change-voter-data)
-![main-impacts]()
+![main-impacts](https://github.com/charlottemcclintock/DataforClimate/master/stories/impactvsaction/graphics/big-graphic.png)
 
 
 ## Story: [The Untapped (Republican) Climate Voters](https://www.brightest.io/climate-republican-class-latinx-voter-data)
-![main-untapped]()
+![main-untapped](stories/untapped/polar-both.png)
 
 
